@@ -59,6 +59,6 @@ See [Adapting a dataset](http://luminoth.readthedocs.io/en/latest/usage/dataset.
 
 ## Training
 
-See [Training your own model](http://luminoth.readthedocs.io/en/latest/usage/training.html) to learn how to train locally or in Google Cloud.
+See [Training your own model](https://github.com/interviewBubble/Table-Detection-using-Deep-Learning) to learn how to train locally or in Google Cloud.
 
 Released under the [BSD 3-Clause](LICENSE).
