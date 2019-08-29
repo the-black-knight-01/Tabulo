@@ -26,7 +26,7 @@ To use Tabulo, [TensorFlow](https://www.tensorflow.org/install/) must be install
 First, clone the repo on your machine and then install with `pip`:
 
 ```bash
-git clone https://github.com/tryolabs/tabulo.git
+git clone https://github.com/interviewBubble/Tabulo.git
 cd tabulo
 pip install -e .
 ```
