@@ -87,7 +87,7 @@ and a list of available options with descriptions will show up.
 * Unzip and Copy downloaded luminoth folder inside ```luminoth/utils/pretrained_models``` folder
 * Hit this command to list all check points: ```tabulo checkpoint list```
 * You will get output like this:
-
+![Checkpoints](https://github.com/interviewBubble/Tabulo/raw/master/docs/images/Checkpoints.png)
 * Now run server using this command: ```tabulo sever web --checkpoint 6aac7a1e8a8e```
 
 ## 8. Working with datasets
