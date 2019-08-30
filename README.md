@@ -61,7 +61,8 @@ curl -X POST \
   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
   -F image=@/path/to/image/page_8-min.jpg
 ``` 
-#### With PostMan
+#### 3.2 With PostMan
+![Table Detection using Postman](https://github.com/interviewBubble/Tabulo/raw/master/docs/images/table_detect_API.png)
 
 ## 3. Supported models
 
