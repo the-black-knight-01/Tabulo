@@ -46,8 +46,8 @@ pip install -e .
 Simply run `tabulo --help`.
 
 ## 2. Avaiable API's
-* localhost:5000/api/fasterrcnn/predict/   - To detect table in the image
-* localhost:5000/api/fasterrcnn/extract/   - Extract table content from detected tables
+* `localhost:5000/api/fasterrcnn/predict/`   - To detect table in the image
+* `localhost:5000/api/fasterrcnn/extract/`   - Extract table content from detected tables
 
 ## 3. Runnning Tabulo
 
