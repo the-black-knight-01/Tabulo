@@ -36,13 +36,13 @@ Simply run `tabulo --help`.
 
 ## 2. Runnning Tabulo
 
-#### 2.1 Running Tabulo as Web Server
+#### 2.1 Running Tabulo as Web Server:
 ![Running Tabulo](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/tabulo_server.png)
 
-#### 2.2 Example of Table Detection with Faster R-CNN By Tabulo
+#### 2.2 Example of Table Detection with Faster R-CNN By Tabulo:
 ![Example of Table Detection with Faster R-CNN By Tabulo](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/table_detect.png)
 
-#### 2.3 Example of Table Data Extraction with tesseract By Tabulo
+#### 2.3 Example of Table Data Extraction with tesseract By Tabulo:
 ![Example of Table Data Extraction with tesseract By Tabulo](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/table_data_extract.png)
 
 
