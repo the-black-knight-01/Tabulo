@@ -9,15 +9,6 @@
 
 Tabulo is an open source toolkit for **computer vision**. Currently, we support table detection, but we are aiming for much more. It is built in Python, using [Luminoth](https://github.com/tryolabs/luminoth), [TensorFlow](https://www.tensorflow.org/) and [Sonnet](https://github.com/deepmind/sonnet).
 
-# Running Tabulo as Web Server
-![Running Tabulo](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/tabulo_server.png)
-
-# Example of Table Detection with Faster R-CNN By Tabulo
-![Example of Table Detection with Faster R-CNN By Tabulo](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/table_detect.png)
-
-# Example of Table Data Extraction with tesseract By Tabulo
-![Example of Table Data Extraction with tesseract By Tabulo](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/table_data_extract.png)
-
 # Installation
 
 Tabulo currently supports Python 2.7 and 3.4–3.6.
@@ -26,7 +17,9 @@ Tabulo currently supports Python 2.7 and 3.4–3.6.
 
 To use Tabulo, [TensorFlow](https://www.tensorflow.org/install/) must be installed beforehand. If you want **GPU support**, you should install the GPU version of TensorFlow with `pip install tensorflow-gpu`, or else you can use the CPU version using `pip install tensorflow`.
 
-## Installing Luminoth
+
+
+## Installing Tabulo
 
 First, clone the repo on your machine and then install with `pip`:
 
@@ -36,9 +29,23 @@ cd tabulo
 pip install -e .
 ```
 
+
 ## Check that the installation worked
 
-Simply run `lumi --help`.
+Simply run `tabulo --help`.
+
+
+
+#### Running Tabulo as Web Server
+![Running Tabulo](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/tabulo_server.png)
+
+#### Example of Table Detection with Faster R-CNN By Tabulo
+![Example of Table Detection with Faster R-CNN By Tabulo](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/table_detect.png)
+
+#### Example of Table Data Extraction with tesseract By Tabulo
+![Example of Table Data Extraction with tesseract By Tabulo](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/table_data_extract.png)
+
+
 
 # Supported models
 
