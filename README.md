@@ -59,7 +59,7 @@ We also provide **pre-trained checkpoints** for the above models trained on popu
 
 ## 4. Usage
 
-There is one main command line interface which you can use with the `lumi` command. Whenever you are confused on how you are supposed to do something just type:
+There is one main command line interface which you can use with the `tabulo` command. Whenever you are confused on how you are supposed to do something just type:
 
 `tabulo --help` or `tabulo <subcommand> --help`
 
