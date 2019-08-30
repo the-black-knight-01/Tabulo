@@ -3,7 +3,7 @@ import os
 import tensorflow as tf
 
 
-DEFAULT_LUMINOTH_HOME = os.path.expanduser('~/.luminoth')
+DEFAULT_LUMINOTH_HOME = os.path.join(os.getcwd(),"luminoth/utils/pretrained_models/luminoth/")
 
 
 def get_luminoth_home(create_if_missing=True):
