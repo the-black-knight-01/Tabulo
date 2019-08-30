@@ -116,7 +116,7 @@ setup(
     },
     entry_points="""
         [console_scripts]
-        lumi=luminoth:cli
+        tabulo=luminoth:cli
     """,
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*',
 )

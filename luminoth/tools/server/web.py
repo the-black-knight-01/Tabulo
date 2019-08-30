@@ -120,8 +120,6 @@ def extract(model_name):
             # '--oem 1' for using LSTM OCR Engine
             config = ('-l eng --oem 1 --psm 6')
             s +=  image_to_string(Image.open(file).convert('LA'),config=config)
-            s+=" \n"
-            s += image_to_string(Image.open(file))
             #print (s)
     return s
 
