@@ -34,6 +34,10 @@ pip install -e .
 
 Simply run `tabulo --help`.
 
+## Avaiable API's
+* localhost:5000/api/fasterrcnn/predict/   - To detect table in the image
+* localhost:5000/api/fasterrcnn/extract/   - Extract table content from detected tables
+
 ## 2. Runnning Tabulo
 
 #### 2.1 Running Tabulo as Web Server:
@@ -45,7 +49,19 @@ Simply run `tabulo --help`.
 #### 2.3 Example of Table Data Extraction with tesseract By Tabulo:
 ![Example of Table Data Extraction with tesseract By Tabulo](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/table_data_extract.png)
 
+## 3. Runnning Tabulo As Service:
 
+#### 3.1 Using Curl command
+```Curl command to detect tabel
+curl -X POST \
+  http://localhost:5000/api/fasterrcnn/predict/ \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Postman-Token: 70478bd2-e1e8-442f-b0bf-ea5ecf7bf4d8' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
+  -F image=@/path/to/image/page_8-min.jpg
+``` 
+#### With PostMan
 
 ## 3. Supported models
 
