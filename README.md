@@ -9,9 +9,18 @@
 
 Tabulo is an open source toolkit for **computer vision**. Currently, we support table detection, but we are aiming for much more. It is built in Python, using [Luminoth](https://github.com/tryolabs/luminoth), [TensorFlow](https://www.tensorflow.org/) and [Sonnet](https://github.com/deepmind/sonnet).
 
-## 1. Installation
+### Table of Contents
+**[Installation Instructions](#installation-instructions)**<br>
+**[Avaiable API's](#Avaiable-API's)**<br>
+**[Troubleshooting](#troubleshooting)**<br>
+**[Compatibility](#compatibility)**<br>
+**[Notes and Miscellaneous](#notes-and-miscellaneous)**<br>
+**[Building the Extension Bundles](#building-the-extension-bundles)**<br>
+**[Next Steps, Credits, Feedback, License](#next-steps)**<br>
 
- ...Tabulo currently supports Python 2.7 and 3.4–3.6.
+## 1. Installation Instructions
+ 
+...Tabulo currently supports Python 2.7 and 3.4–3.6. 
 
 ### 1.1 Pre-requisites
 
