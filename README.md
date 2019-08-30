@@ -77,5 +77,5 @@ Released under the [BSD 3-Clause](LICENSE).
 
 --------------
 # References
-1.https://github.com/Sargunan/Table-Detection-using-Deep-learning
-2.https://github.com/tryolabs/luminoth
+* https://github.com/Sargunan/Table-Detection-using-Deep-learning
+* https://github.com/tryolabs/luminoth
