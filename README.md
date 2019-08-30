@@ -9,17 +9,17 @@
 
 Tabulo is an open source toolkit for **computer vision**. Currently, we support table detection, but we are aiming for much more. It is built in Python, using [Luminoth](https://github.com/tryolabs/luminoth), [TensorFlow](https://www.tensorflow.org/) and [Sonnet](https://github.com/deepmind/sonnet).
 
-# Installation
+## Installation
 
 Tabulo currently supports Python 2.7 and 3.4–3.6.
 
-## Pre-requisites
+#### Pre-requisites
 
 To use Tabulo, [TensorFlow](https://www.tensorflow.org/install/) must be installed beforehand. If you want **GPU support**, you should install the GPU version of TensorFlow with `pip install tensorflow-gpu`, or else you can use the CPU version using `pip install tensorflow`.
 
 
 
-## Installing Tabulo
+#### Installing Tabulo
 
 First, clone the repo on your machine and then install with `pip`:
 
@@ -30,7 +30,7 @@ pip install -e .
 ```
 
 
-## Check that the installation worked
+#### Check that the installation worked
 
 Simply run `tabulo --help`.
 
@@ -47,7 +47,7 @@ Simply run `tabulo --help`.
 
 
 
-# Supported models
+## Supported models
 
 Currently, we support the following models:
 
@@ -57,11 +57,11 @@ Currently, we support the following models:
 
 We also provide **pre-trained checkpoints** for the above models trained on popular datasets such as [COCO](http://cocodataset.org/) and [Pascal](http://host.robots.ox.ac.uk/pascal/VOC/).
 
-# Usage
+## Usage
 
 There is one main command line interface which you can use with the `lumi` command. Whenever you are confused on how you are supposed to do something just type:
 
-`lumi --help` or `lumi <subcommand> --help`
+`tabulo --help` or `tabulo <subcommand> --help`
 
 and a list of available options with descriptions will show up.
 
