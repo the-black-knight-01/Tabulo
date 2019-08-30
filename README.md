@@ -84,7 +84,11 @@ and a list of available options with descriptions will show up.
 
 ## 7. Working with pretrained Models:
 * DOWNLOAD pretrained model from [Google drive](https://drive.google.com/drive/folders/1aUh9RfGn2XGgG2EtpKFh7P6PmcC3Q48z?usp=sharing)
-* Unzip and Copy downloaded luminoth folder inside luminoth/utils/pretrained_models folder
+* Unzip and Copy downloaded luminoth folder inside ```luminoth/utils/pretrained_models``` folder
+* Hit this command to list all check points: ```tabulo checkpoint list```
+* You will get output like this:
+
+* Now run server using this command: ```tabulo sever web --checkpoint 6aac7a1e8a8e```
 
 ## 8. Working with datasets
 
