@@ -8,7 +8,7 @@ from setuptools import find_packages, setup
 
 # -------------------------------------------------------------
 
-NAME = 'luminoth'
+NAME = 'tabulo'
 PACKAGES = find_packages()
 META_PATH = os.path.join('luminoth', '__init__.py')
 KEYWORDS = [
