@@ -11,7 +11,7 @@ Tabulo is an open source toolkit for **computer vision**. Currently, we support 
 
 ## 1. Installation
 
-Tabulo currently supports Python 2.7 and 3.4–3.6.
+ ...Tabulo currently supports Python 2.7 and 3.4–3.6.
 
 ### 1.1 Pre-requisites
 
