@@ -34,7 +34,7 @@ pip install -e .
 
 Simply run `tabulo --help`.
 
-
+## Runnning Tabulo
 
 #### Running Tabulo as Web Server
 ![Running Tabulo](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/tabulo_server.png)
