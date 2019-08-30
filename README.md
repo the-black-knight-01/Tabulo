@@ -9,9 +9,20 @@
 
 Tabulo is an open source toolkit for **computer vision**. Currently, we support table detection, but we are aiming for much more. It is built in Python, using [Luminoth](https://github.com/tryolabs/luminoth), [TensorFlow](https://www.tensorflow.org/) and [Sonnet](https://github.com/deepmind/sonnet).
 
-## 1. Installation
+### Table of Contents
+1. **[Installation Instructions](#1-installation-instructions)**<br>
+2. **[Avaiable API's](#2-avaiable-apis)**<br>
+3. **[Runnning Tabulo](#3-runnning-tabulo)**<br>
+4. **[Runnning Tabulo As Service](#4-runnning-tabulo-as-service)**<br>
+5. **[Supported models ](#5-supported-models)**<br>
+6. **[Usage](#6-usage)**<br>
+7. **[Working with pretrained Models](#7-working-with-pretrained-models)**<br>
+8. **[Working with datasets](#8-working-with-datasets)**<br>
+9. **[Training](#9-training)**<br>
 
-Tabulo currently supports Python 2.7 and 3.4–3.6.
+## 1. Installation Instructions
+ 
+...Tabulo currently supports Python 2.7 and 3.4–3.6. 
 
 ### 1.1 Pre-requisites
 
@@ -35,8 +46,8 @@ pip install -e .
 Simply run `tabulo --help`.
 
 ## 2. Avaiable API's
-* localhost:5000/api/fasterrcnn/predict/   - To detect table in the image
-* localhost:5000/api/fasterrcnn/extract/   - Extract table content from detected tables
+* `localhost:5000/api/fasterrcnn/predict/`   - To detect table in the image
+* `localhost:5000/api/fasterrcnn/extract/`   - Extract table content from detected tables
 
 ## 3. Runnning Tabulo
 
@@ -61,7 +72,7 @@ curl -X POST \
   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
   -F image=@/path/to/image/page_8-min.jpg
 ``` 
-#### 4.2 With PostMan
+### 4.2 With PostMan
 ![Table Detection using Postman](https://github.com/interviewBubble/Tabulo/raw/master/docs/images/table_detect_API.png)
 
 ## 5. Supported models
@@ -92,7 +103,7 @@ and a list of available options with descriptions will show up.
 
 ## 8. Working with datasets
 
-See [Adapting a dataset](http://luminoth.readthedocs.io/en/latest/usage/dataset.html).
+ [DataSet to train your custom model](https://github.com/interviewBubble/Table-Detection-using-Deep-Learning/tree/master/data).
 
 ## 9. Training
 
