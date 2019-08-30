@@ -61,7 +61,7 @@ curl -X POST \
   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
   -F image=@/path/to/image/page_8-min.jpg
 ``` 
-#### 4.2 With PostMan
+### 4.2 With PostMan
 ![Table Detection using Postman](https://github.com/interviewBubble/Tabulo/raw/master/docs/images/table_detect_API.png)
 
 ## 5. Supported models
@@ -92,7 +92,7 @@ and a list of available options with descriptions will show up.
 
 ## 8. Working with datasets
 
-See [Adapting a dataset](http://luminoth.readthedocs.io/en/latest/usage/dataset.html).
+ [DataSet to train your custom model](https://github.com/interviewBubble/Table-Detection-using-Deep-Learning/tree/master/data).
 
 ## 9. Training
 
