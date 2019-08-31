@@ -109,6 +109,7 @@ and a list of available options with descriptions will show up.
 
 See [Training your own model](https://github.com/interviewBubble/Table-Detection-using-Deep-Learning) to learn how to train locally or in Google Cloud.
 
+## 10. LICENSE
 Released under the [BSD 3-Clause](LICENSE).
 
 --------------
