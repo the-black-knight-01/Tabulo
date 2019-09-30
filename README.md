@@ -72,6 +72,10 @@ curl -X POST \
   -F image=@/path/to/image/page_8-min.jpg
 ``` 
 ### 4.2 With PostMan
+#### Header Section:
+![Table Detection using Postman](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/tabulo_resquest_header.png)
+
+##### Data Section:
 ![Table Detection using Postman](https://github.com/interviewBubble/Tabulo/raw/master/docs/images/table_detect_API.png)
 
 ## 5. Supported models
