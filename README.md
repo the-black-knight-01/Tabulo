@@ -48,20 +48,28 @@ Simply run `tabulo --help`.
 * `localhost:5000/api/fasterrcnn/predict/`   - To detect table in the image
 * `localhost:5000/api/fasterrcnn/extract/`   - Extract table content from detected tables
 
-## 3. Runnning Tabulo
+## 3. Working with pretrained Models:
+* DOWNLOAD pretrained model from [Google drive](https://drive.google.com/drive/folders/1aUh9RfGn2XGgG2EtpKFh7P6PmcC3Q48z?usp=sharing)
+* Unzip and Copy downloaded luminoth folder inside ```luminoth/utils/pretrained_models``` folder
+* Hit this command to list all check points: ```tabulo checkpoint list```
+* You will get output like this:
+![Checkpoints](https://github.com/interviewBubble/Tabulo/raw/master/docs/images/Checkpoints.png)
+* Now run server using this command: ```tabulo sever web --checkpoint 6aac7a1e8a8e```
 
-### 3.1 Running Tabulo as Web Server:
+## 4. Runnning Tabulo
+
+### 4.1 Running Tabulo as Web Server:
 ![Running Tabulo](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/tabulo_server.png)
 
-### 3.2 Example of Table Detection with Faster R-CNN By Tabulo:
+### 4.2 Example of Table Detection with Faster R-CNN By Tabulo:
 ![Example of Table Detection with Faster R-CNN By Tabulo](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/table_detect.png)
 
-### 3.3 Example of Table Data Extraction with tesseract By Tabulo:
+### 4.3 Example of Table Data Extraction with tesseract By Tabulo:
 ![Example of Table Data Extraction with tesseract By Tabulo](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/table_data_extract.png)
 
-## 4. Runnning Tabulo As Service:
+## 5. Runnning Tabulo As Service:
 
-### 4.1 Using Curl command
+### 5.1 Using Curl command
 ```Curl command to detect tabel
 curl -X POST \
   http://localhost:5000/api/fasterrcnn/predict/ \
@@ -71,14 +79,14 @@ curl -X POST \
   -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
   -F image=@/path/to/image/page_8-min.jpg
 ``` 
-### 4.2 With PostMan
+### 5.2 With PostMan
 #### Header Section:
 ![Table Detection using Postman](https://github.com/interviewBubble/Tabulo/blob/master/docs/images/tabulo_resquest_header.png)
 
 #### Data Section:
 ![Table Detection using Postman](https://github.com/interviewBubble/Tabulo/raw/master/docs/images/table_detect_API.png)
 
-## 5. Supported models
+## 6. Supported models
 
 Currently, we support the following models:
 
@@ -88,21 +96,13 @@ Currently, we support the following models:
 
 We also provide **pre-trained checkpoints** for the above models trained on popular datasets such as [COCO](http://cocodataset.org/) and [Pascal](http://host.robots.ox.ac.uk/pascal/VOC/).
 
-## 6. Usage
+## 7. Usage
 
 There is one main command line interface which you can use with the `tabulo` command. Whenever you are confused on how you are supposed to do something just type:
 
 `tabulo --help` or `tabulo <subcommand> --help`
 
 and a list of available options with descriptions will show up.
-
-## 7. Working with pretrained Models:
-* DOWNLOAD pretrained model from [Google drive](https://drive.google.com/drive/folders/1aUh9RfGn2XGgG2EtpKFh7P6PmcC3Q48z?usp=sharing)
-* Unzip and Copy downloaded luminoth folder inside ```luminoth/utils/pretrained_models``` folder
-* Hit this command to list all check points: ```tabulo checkpoint list```
-* You will get output like this:
-![Checkpoints](https://github.com/interviewBubble/Tabulo/raw/master/docs/images/Checkpoints.png)
-* Now run server using this command: ```tabulo sever web --checkpoint 6aac7a1e8a8e```
 
 ## 8. Working with datasets
 
