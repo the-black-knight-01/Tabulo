@@ -12,11 +12,11 @@ Tabulo is an open source toolkit for **computer vision**. Currently, we support 
 ### Table of Contents
 1. **[Installation Instructions](#1-installation-instructions)**<br>
 2. **[Avaiable API's](#2-avaiable-apis)**<br>
-3. **[Runnning Tabulo](#3-runnning-tabulo)**<br>
-4. **[Runnning Tabulo As Service](#4-runnning-tabulo-as-service)**<br>
-5. **[Supported models ](#5-supported-models)**<br>
-6. **[Usage](#6-usage)**<br>
-7. **[Working with pretrained Models](#7-working-with-pretrained-models)**<br>
+3. **[Working with pretrained Models](#3-working-with-pretrained-models)**<br>
+4. **[Runnning Tabulo](#4-runnning-tabulo)**<br>
+5. **[Runnning Tabulo As Service](#5-runnning-tabulo-as-service)**<br>
+6. **[Supported models ](#6-supported-models)**<br>
+7. **[Usage](#7-usage)**<br>
 8. **[Working with datasets](#8-working-with-datasets)**<br>
 9. **[Training](#9-training)**<br>
 10. **[LICENSE](#10-license)**<br>
