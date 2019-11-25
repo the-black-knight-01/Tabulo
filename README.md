@@ -54,7 +54,7 @@ Simply run `tabulo --help`.
 * Hit this command to list all check points: ```tabulo checkpoint list```
 * You will get output like this:
 ![Checkpoints](https://github.com/interviewBubble/Tabulo/raw/master/docs/images/Checkpoints.png)
-* Now run server using this command: ```tabulo sever web --checkpoint 6aac7a1e8a8e```
+* Now run server using this command: ```tabulo server web --checkpoint 6aac7a1e8a8e```
 
 ## 4. Runnning Tabulo
 
